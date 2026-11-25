@@ -1,5 +1,11 @@
+# Daftar pola yang sengaja tidak ikut masuk ke repo, supaya yang tersimpan hanya kode sumber entri dan dokumennya — bukan hasil build, cache, atau berkas sementara dari mesin lokal.
 *-kit/
-kit.tar.gz
-out/
-__pycache__/
+*.tar.gz
 node_modules/
+dist/
+build/
+.next/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
